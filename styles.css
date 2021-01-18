@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e6ecf0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+ input, button{
+     outline: 0;
+ }
+.nav-img{
+    width: 28px;
+    height: 28px;
+}
+.logo-img{
+    width: 34px;
+    height: 34px;
+}
+.header-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+
+header#main-header{
+    background: #fff;
+    height: 46px;
+}
+
+header#main-header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    
+}
+header#main-header nav ul li{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color:#667580;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header#main-header nav ul li img{
+    margin-right: 7px;
+}
+
+header#main-header div.side-bar{
+    display: flex;
+    margin-top: 5px;
+}
+header#main-header div.side-bar input{
+    width: 220px;
+    background: #f5f8fa;
+    border: 1px solid #e6ecf0;
+    height: 34px;
+    border-radius: 16px;
+    padding: 0 12px;
+    color: #667581;
+    font-size: 12px;
+}
+header#main-header div.side-bar button{
+    background: #667580;
+    color: #fff;
+    width: 90px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 16px;
+    border: 0;
+    margin-right: 7px;
+}
