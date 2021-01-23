@@ -32,6 +32,9 @@ body{
 header#main-header{
     background: #fff;
     height: 46px;
+    box-shadow: 0 1px 1px rgba(0, 0,0, 0.25);
+    position: relative;
+    z-index: 1;
 }
 
 header#main-header .content{
@@ -86,4 +89,198 @@ header#main-header div.side-bar button{
     border-radius: 16px;
     border: 0;
     margin-right: 7px;
+}
+
+div.banner{
+    width: 100%;
+    height: 380px;
+    background: #667580;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+div.bar{
+    height: 59px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0,0, 0.25);
+}
+div.bar .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+    height: 100%;
+}
+div.bar .content ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+   
+}
+div.bar .content ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: center;
+    position: relative;
+}
+div.bar .content ul li.active::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: #667581;
+}
+
+div.bar .content ul li span{
+    font-size: 16px;
+    color:#667581;
+    font-weight: bold;
+}
+div.bar .content ul li strong{
+    font-size: 18px;
+    color:#667580;
+    font-weight: bold;
+    margin-top: 2px;
+}
+div.action img{
+    width: 24px;
+    height: 24px;
+}
+
+div.bar .content .action{
+    display: flex;
+    align-items: center;
+
+}
+
+div.bar .content .action button{
+    color: #667580;
+    width: 90px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #667580;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+div.bar .content .action img{
+    margin-right: 10px;
+}
+
+div.wrapper-content{
+    display: flex;
+}
+
+div.wrapper-content aside.profile{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+div.wrapper-content aside.profile img.avatar{
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    border: 5px solid #fff;
+    margin-top: -120px;
+}
+
+div.wrapper-content aside.profile h1{
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+div.wrapper-content aside.profile span{
+    font-size: 14px;
+    color: #53626c;
+}
+div.wrapper-content aside.profile p{
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+div.wrapper-content aside.profile ul{
+    list-style: none;
+    margin-top: 20px;
+}
+div.wrapper-content aside.profile ul.list li{
+    font-size: 16px;
+    color: #1f2226;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+}
+div.wrapper-content aside.profile ul.list li:first-child{
+    margin: 0;
+}
+div.wrapper-content aside.profile ul.list li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+div.wrapper-content aside.profile div.widgets strong{
+    font-weight: normal;
+    font-size: 16px;
+    color: #1f2226;
+    display: flex;
+    align-items: center;
+}
+div.wrapper-content aside.profile div.widgets strong img{
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+div.wrapper-content aside.profile div.widgets{
+    margin-top: 20px;
+
+}
+
+div.wrapper-content aside.profile div.followers ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div.wrapper-content aside.profile div.followers ul li{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #667580;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin-right: 15px;
+    margin-top: 5px;
+    flex: 1 0 auto;
+
+}
+div.wrapper-content aside.profile .images ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .images ul li{
+width: 80px;
+height: 80px;
+background: #667580;
+border-radius: 8px;
+flex-shrink: 0;
+margin: 0 5px 10px 0;
+flex: 1 0 auto;
 }
