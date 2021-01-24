@@ -284,3 +284,160 @@ flex-shrink: 0;
 margin: 0 5px 10px 0;
 flex: 1 0 auto;
 }
+
+div.wrapper-content .timeline{
+    flex: 1;
+    background: #fff;
+    margin: 20px 20px 0;
+}
+
+div.wrapper-content .timeline nav{
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a{
+     text-decoration: none;
+     color: #667581;
+     font-size: 18px;
+     font-weight: bold;
+     margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child{
+    margin: 0;
+}
+
+div.wrapper-content .timeline nav a:active{
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets{
+    width: 320px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+div.wrapper-content aside.widgets .widget{
+    background: #fff;
+    padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title{
+    display: flex;
+    align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong{
+    font-size: 18px;
+    color:#1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a{
+    text-decoration: none;
+    color: #53626c;
+    font-size: 14px;
+    position: relative;
+    padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before{
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #222;
+    position: absolute;
+    left: 4px;
+    top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #667580;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+div.wrapper-content aside.widgets .follow ul li:last-child{
+    border-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile{
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+div.wrapper-content aside.widgets .follow ul li .profile .info{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong{
+    font-size: 18px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span{
+    font-weight: normal;
+    color: #667580;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button{
+    height: 27px;
+    margin-top: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1f2226;
+    border: 1px solid #667581;
+    border-radius: 16px;
+
+}
+
+div.wrapper-content aside.widgets .follow ul li > a{
+    color: #667581;
+    text-decoration: none;
+    font-size: 14px;
+}
+div.wrapper-content aside.widgets div.widget-trends{
+    width: 320px;
+    background: #fff;
+    padding-left: 20px;
+}
+
+div.wrapper-content aside.widgets div.widget-trends strong{
+    font-size: 18px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets div.widget-trends ul {
+    list-style: none;
+}
+div.wrapper-content aside.widgets div.widget-trends ul li {
+
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+div.wrapper-content aside.widgets div.widget-trends ul li:first-child{
+    margin-top: 10px;
+}
